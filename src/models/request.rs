@@ -37,7 +37,7 @@ pub struct ToolChoice {
 }
 
 #[derive(Serialize, Deserialize)]
-struct Parameters {
+pub struct Parameters {
     #[serde(rename = "type")]
     parameter_type: String,
     properties: Value,
